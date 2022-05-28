@@ -5,4 +5,4 @@ Includes:
 - Unpacked EPUB (raw XHTML files)
 - Extracted text from said XHTML files (unaltered and altered)
 - Python scripts
-- Wordcloud clip image
+- Word cloud clip image
