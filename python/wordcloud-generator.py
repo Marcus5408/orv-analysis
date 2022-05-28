@@ -4,10 +4,10 @@ import matplotlib.pyplot as plt
 from PIL import Image
 import numpy as np
 
-text = open("C://Users//gamer//Desktop//outputword.txt", mode="r", encoding="utf-8").read()
+text = open("C://Users//gamer//Desktop//words-only.txt", mode="r", encoding="utf-8").read()
 stopwords = set(wordcloud.STOPWORDS)
 
-custom_mask = np.array(Image.open("C://Users//gamer//Desktop//Stuff//Files//code//cloud.png"))
+custom_mask = np.array(Image.open("C://Users//gamer//Desktop//Stuff//Files//code//mask.png"))
 wc = wordcloud.WordCloud(background_color="white",
                stopwords=stopwords,
                mask = custom_mask,
