@@ -1,4 +1,4 @@
-# orv-wordcloud
+# Omniscient Reader's Viewpoint Word Cloud
 All the stuff I used to generate the wordcloud.
 
 Includes:
