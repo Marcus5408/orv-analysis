@@ -1,5 +1,5 @@
 # Omniscient Reader's Viewpoint Word Cloud
-All the stuff I used to generate a wordcloud of ORV.
+All the stuff I used to generate a wordcloud of the ORV novel.
 
 Includes:
 - Unpacked EPUB (raw XHTML files)
