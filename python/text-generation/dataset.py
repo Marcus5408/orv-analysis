@@ -1,6 +1,7 @@
 import torch
 import pandas as pd
 from collections import Counter
+
 class Dataset(torch.utils.data.Dataset):
     def __init__(
         self,
@@ -13,8 +14,8 @@ class Dataset(torch.utils.data.Dataset):
         self.word_to_index = {word: index for index, word in enumerate(self.uniq_words)}
         self.words_indexes = [self.word_to_index[w] for w in self.words]
     def load_words(self):
-        train_df = pd.read_csv('data/reddit-cleanjokes.csv')
-        text = train_df['Joke'].str.cat(sep=' ')
+        train_df = pd.read_csv('text/extracted-sentences.csv')
+        text = train_df['Sentence'].str.cat(sep=' ')
         return text.split(' ')
     def get_uniq_words(self):
         word_counts = Counter(self.words)

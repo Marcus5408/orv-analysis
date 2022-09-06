@@ -33,6 +33,14 @@ while num < 552:
         # drop blank lines
         text = '\n'.join(chunk for chunk in chunks if chunk)
 
+        # add quotations to the beginning and end of every sentence and replaces " with '
+        lines = text.splitlines()
+        formatting = ""
+        for line in lines:
+            tempFormat = line.replace("\u0022","\u0027") # removing this gives a syntaxerror: f-string expression part cannot include a backslash
+            formatting += (f'"{tempFormat}"\n')
+        text = formatting
+        
         print(f"Extracting Chapter {tempNum}...")
         output.writelines(unicodedata.normalize("NFKD", text).encode('ascii', 'ignore').decode('utf8') + "\n")
 
