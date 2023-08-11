@@ -1,5 +1,6 @@
 import re
 import os
+
 obsidian_path = 'C:/Users/Marcus/iCloudDrive/iCloud~md~obsidian/orv/novel'
 # obsidian_path = 'C:/Users/Marcus/Desktop/ORV/Novel' # temp
 chapter_list = 'text/chapters_obsidian.txt'
