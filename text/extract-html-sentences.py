@@ -15,9 +15,9 @@ while num < 552:
     elif numLength == 3:
         tempNum = "00" + str(num)
 
-    with open("C:/Users/Marcus/Repositories/orv-analysis/text/extracted-sentences.txt", "a") as output:
+    with open("text/extracted-sentences.txt", "a") as output:
         print(f"Loading Chapter {tempNum}...")
-        og = open(f"C:/Users/Marcus/Repositories/orv-analysis/extracted EPUB/OEBPS/chap_{tempNum}.xhtml", "r", encoding="UTF8")
+        og = open(f"extracted EPUB/OEBPS/chap_{tempNum}.xhtml", "r", encoding="UTF8")
         soup = BeautifulSoup(og, features="html.parser")
 
         # kill all script and style elements

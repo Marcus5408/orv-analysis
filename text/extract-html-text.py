@@ -14,9 +14,9 @@ while num < 552:
     elif numLength == 3:
         tempNum = "00" + str(num)
 
-    with open("C:/Users/Marcus/Repositories/orv-analysis/text/extracted-unicode.txt", "a") as output:
+    with open("text/extracted-unicode.txt", "a") as output:
         print("Loading Chapter " + tempNum + "...")
-        og = open("C:/Users/Marcus/Repositories/orv-analysis/extracted EPUB/OEBPS/chap_" + tempNum + ".xhtml", "r", encoding="UTF8")
+        og = open("extracted EPUB/OEBPS/chap_" + tempNum + ".xhtml", "r", encoding="UTF8")
         handler = html2text.HTML2Text()
         handler.ignore_links = True
         handler.unicode_snob = True

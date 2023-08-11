@@ -1,0 +1,18 @@
+(?<=\. )(.*)(?= -)
+
+
+Chapter 2: Ep. 1 - Starting the Paid Service, I
+Chapter 3: Ep. 1 - Starting the Paid Service, II
+Chapter 4: Ep. 1 - Starting the Paid Service, III
+Chapter 5: Ep. 1 - Starting the Paid Service, IV
+Chapter 6: Ep. 1 - Starting the Paid Service, V
+
+Chapter 182: Ep. 35 - The 73rd Demon King, I
+Chapter 183: Ep. 35 - The 73rd Demon King, II
+Chapter 184: Ep. 35 - The 73rd Demon King, III
+Chapter 185: Ep. 35 - The 73rd Demon King, IV
+Chapter 186: Ep. 35 - The 73rd Demon King, V
+Chapter 187: Ep. 35 - The 73rd Demon King, VI
+Chapter 188: Ep. 35 - The 73rd Demon King, VII
+
+Chapter 0464544: Ep. 35 - The 73rd Demon King, VII
