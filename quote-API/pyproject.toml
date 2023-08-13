@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "quote-api"
+version = "0.1.0"
+description = "A simple API to get ORV quotes"
+authors = ["Marcus Jones <46655509+Marcus5408@users.noreply.github.com>"]
+license = "GPL 3.0"
+readme = "README.md"
+packages = [{include = "quote_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Flask-RESTful = "^0.3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
